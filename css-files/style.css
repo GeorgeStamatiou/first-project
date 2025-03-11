@@ -1,0 +1,54 @@
+html {
+  font-size: 22px;
+}
+
+header article {
+  display: flex;
+  align-items: center;
+  /* Align items vertically */
+  justify-content: space-between;
+  /* Optional: Adds space between h1 and nav */
+}
+
+nav {
+  display: flex;
+  /* Ensures links are in a row */
+  gap: 15px;
+  /* Adds space between nav links */
+}
+
+
+body {
+  min-height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+  background-color: whitesmoke
+}
+
+th,
+td,
+caption {
+  border: 1px solid #333;
+  font-family: 'Courier New', Courier, monospace;
+  border-collapse: separate;
+  padding: 0.5rem;
+}
+
+.food-buttons {
+  border: none;
+  width: 70px;
+  height: 30px;
+  color: black;
+  background-color: rgb(216, 211, 211);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.food-button-selected {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}

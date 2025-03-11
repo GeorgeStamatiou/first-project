@@ -1,0 +1,11 @@
+TO DO LIST
+
+1. Create a simple database to take foods from
+
+2. Re-create the add button to give a drop-down from that database.
+
+3. Seperate functions of each button class. 
+
+4. create event listeners for each class respectively.
+
+5. Change the input method for quantity.
